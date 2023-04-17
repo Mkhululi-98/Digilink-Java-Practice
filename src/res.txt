@@ -1,0 +1,63 @@
+CoVA: Context-aware Visual Attention for Webpage Information Extraction
+Anurendra Kumar, Keval Morabia, Jingjin Wang, Kevin Chen-Chuan Chang, Alexander Schwing
+Webpage information extraction (WIE) is an important step to create knowledge bases. For this, classical WIE methods leverage the Document Object Model (DOM) tree of a website. However, use of the DOM tree poses significant challenges as context and appearance are encoded in an abstract manner. To address this challenge we propose to reformulate WIE as a context-aware Webpage Object Detection task. Specifically, we develop a Context-aware Visual Attention-based (CoVA) detection pipeline which combines appearance features with syntactical structure from the DOM tree. To study the approach we collect a new large-scale dataset of e-commerce websites for which we manually annotate every web element with four labels: product price, product title, product image and background. On this dataset we show that the proposed CoVA approach is a new challenging baseline which improves upon prior state-of-the-art methods.
+Comments:	11 Pages, 6 Figures, 3 Tables
+Subjects:	Computer Vision and Pattern Recognition (cs.CV); Artificial Intelligence (cs.AI); Computation and Language (cs.CL); Human-Computer Interaction (cs.HC); Information Retrieval (cs.IR)
+Cite as:	arXiv:2110.12320 [cs.CV]
+ 	(or arXiv:2110.12320v1 [cs.CV] for this version)
+ 
+https://doi.org/10.48550/arXiv.2110.12320
+Focus to learn more
+Related DOI:
+https://doi.org/10.18653/v1/2022.ecnlp-1.11
+Focus to learn more
+Submission history
+From: Keval Morabia [view email]
+[v1] Sun, 24 Oct 2021 00:21:46 UTC (4,104 KB)
+Download:
+PDF
+Other formats
+
+Current browse context:
+cs.CV
+< prev   |   next >
+new | recent | 2110
+Change to browse by:
+cs
+cs.AI
+cs.CL
+cs.HC
+cs.IR
+References & Citations
+NASA ADS
+Google Scholar
+Semantic Scholar
+DBLP - CS Bibliography
+listing | bibtex
+Kevin Chen-Chuan Chang
+Alexander G. Schwing
+Export BibTeX Citation
+Bookmark
+BibSonomy logo Mendeley logo Reddit logo ScienceWISE logo
+Bibliographic Tools
+Bibliographic and Citation Tools
+Bibliographic Explorer Toggle
+Bibliographic Explorer (What is the Explorer?)
+Litmaps Toggle
+Litmaps (What is Litmaps?)
+scite.ai Toggle
+scite Smart Citations (What are Smart Citations?)
+Code, Data, Media
+Demos
+Related Papers
+About arXivLabs
+Which authors of this paper are endorsers? | Disable MathJax (What is MathJax?)
+About
+Help
+Contact
+Subscribe
+Copyright
+Privacy Policy
+Web Accessibility Assistance
+arXiv Operational Status 
+Get status notifications via email or 
