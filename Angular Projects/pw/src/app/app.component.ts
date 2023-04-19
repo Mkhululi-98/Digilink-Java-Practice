@@ -12,7 +12,7 @@ export class AppComponent {
   includeNumbers = false;
   includeSymbols = false;
 
-  OnChangeLength(value: string){
+  onChangeLength(value: string){
       const parseValue = parseInt(value);
       if(!isNaN(parseValue)){
           this.length = parseValue;
@@ -25,7 +25,7 @@ export class AppComponent {
   }
 
   onChangeNumbers(){
-    this.includeNumbers = !this.includeLetters;
+    this.includeNumbers = !this.includeNumbers;
   }
   onChangeSymbols(){
     this.includeSymbols = !this.includeSymbols;
