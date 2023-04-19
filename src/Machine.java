@@ -13,14 +13,14 @@ public class Machine {
 }
 class App{
     public static void main(String[] args) throws FileNotFoundException{
-    Machine files = new Machine();
-    files.readFil("C:/Users/mkululi/Desktop/res.txt");
-    //Anonymous Class Implementation
-    Machine anon = new Machine(){
-        @Override public void readFil(String Fname){
-            System.out.printf("Cannot read file: %30s",Fname);
-        }
-    };
-    anon.readFil("Names.txt");
+        Machine files = new Machine();
+        files.readFil("C:/Users/mkululi/Desktop/res.txt");
+        //Anonymous Class Implementation
+        Machine anon = new Machine(){
+            @Override public void readFil(String Fname){
+                System.out.printf("Cannot read file: %30s",Fname);
+            }
+        };
+        anon.readFil("Names.txt");
     }
 }
