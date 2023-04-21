@@ -11,7 +11,7 @@ public class Machine {
         }
     }
 }
-class App{
+class App{ //TODO: @Mkhukuki please fix indentation
     public static void main(String[] args) throws FileNotFoundException{
         Machine files = new Machine();
         files.readFil("C:/Users/mkululi/Desktop/res.txt");
