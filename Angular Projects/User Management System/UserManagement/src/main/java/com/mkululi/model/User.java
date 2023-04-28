@@ -1,16 +1,24 @@
 package com.mkululi.model;
 
 import jakarta.persistence.*;
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.NoArgsConstructor;
+import lombok.*;
 
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
 @Entity
 @Table(name = "UserData")
+@Setter
+@Getter
 public class User {
+    public User(String name, String username, String phoneNo, String email, String password) {
+        this.name = name;
+        this.username = username;
+        this.phoneNo = phoneNo;
+        this.email = email;
+        this.password = password;
+    }
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
